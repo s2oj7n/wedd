@@ -1,0 +1,131 @@
+
+2023.0904 기능반수업
+SangHo Lee
+•
+9월 4일 (9월 4일에 수정됨)
+100점
+1. 아침수업 Popup Modal
+2. 저녁수업
+
+2023.0904 기능반수업
+Google Docs
+수업 댓글
+내 과제
+제출 완료됨
+
+style.css
+스타일 시트
+
+test.html
+HTML
+비공개 댓글
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'GmarketSans';
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+#wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+#header {
+	width: 100%;
+	display: flex;
+}
+#header .logo {
+	width: 20%;
+	height: 100px;
+	background-color: #efefef;
+}
+#header .nav {
+	width: 80%;
+	background-color: #e3e3e3;
+}
+#slider {
+	width: 100%;
+	height: 300px;
+	background-color: #d9d9d9;
+}
+#contents {
+	width: 100%;
+	display: flex;
+}
+#contents .content1 {
+	width: 33.3333%;
+	height: 200px;
+	background-color: #d1d1d1;
+}
+#contents .content2 {
+	width: 33.3333%;
+	height: 200px;
+	background-color: #c7c7c7;
+}
+#contents .content3 {
+	width: 33.3333%;
+	height: 200px;
+	background-color: #bcbcbc;
+}
+#footer {
+	width: 100%;
+	display: flex;
+}
+#footer .footer1 {
+	width: 20%;
+	height: 100px;
+	background-color: #b1b1b1;
+}
+#footer .footer2 {
+	width: 60%;
+	height: 100px;
+	background-color: #a3a3a3;
+}
+#footer .footer3 {
+	width: 20%;
+	height: 100px;
+	background-color: #9d9d9d;
+}
+/* nav */
+.nav {
+	padding: 30px 40px;
+}
+.nav > ul {
+	text-align: right;
+	display: flex;
+	justify-content: right;
+	height: 40px;
+}
+.nav > ul > li {
+	position: relative;
+}
+.nav > ul > li > a {
+	display: block;
+	padding: 10px 40px;
+	background-color: #c0c0c0;
+}
+.nav > ul > li > a:hover {
+	background-color: #9d9d9d;
+}
+.nav > ul > li > ul {
+	position: absolute;
+	top: 38px;
+	left: 0;
+	background-color: #ccc;
+	width: 100%;
+	box-sizing: border-box;
+	display: none;
+}
+.nav > ul > li > ul > li > a {
+	display: flex;
+	background-color: #808080;
+	padding: 10px;
+}
+.nav > ul > li > ul > li > a:hover {
+	background-color: #909090;
+}
