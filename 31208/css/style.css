@@ -1,0 +1,208 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+}
+body{
+    background-color: #fff;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background: pink;
+    position: relative;
+}
+.header{
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+header h1{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    float: left;
+}
+nav{
+    position: relative;
+    margin-top: 50px;
+    float: right;
+    width: 800px;
+    height: 50px;
+    z-index: 2;
+}
+.gnb li{
+    width: 200px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    background: aquamarine;
+}
+.lnb li{
+    width: 200px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    background: pink;
+}
+.gnb li:hover{
+    width: 200px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    background: sandybrown;
+}
+.ll{
+    width: 1200px;
+    height: 200px;
+    background: pink;
+    margin: 0 auto;
+    display: none;
+    z-index: 1;
+    position: relative;
+}
+.slide{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slide ul{
+    position: absolute;
+    width: 1200px;
+    height: 900px;
+}
+.slide li{
+    width: 1200px;
+    height: 300px;
+}
+.content{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.content h2{
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.content .notice{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: aquamarine;
+}
+.content .notice li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid pink ;
+}
+.content .notice span{
+    float: right;
+    margin-right: 20px;
+}
+.content .gallery{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: pink;
+}
+.content ul{
+    margin-left: 8px;
+}
+.content .gallery img{
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-left: 15px;
+}
+.content .baro{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.content .baro img{
+    width: 30px;
+    height: 30px;
+}
+.content .baro li{
+    height: 30px;
+    line-height: 30px;
+}
+.content .baro ul{
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: pink;
+
+}
+.footer{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.footer .copy{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+}
+.footer .sns {
+    float: left;
+    height: 50px;
+    width: 200px;
+}
+footer .sns img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 30px;
+}
+.footer .select {
+    float: left;
+    height: 50px;
+    width: 200px;
+}
+.footer select {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+}
+.popup{
+    display: none;
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    z-index: 303030303;
+}
+.popup button{
+    margin-top: 80px;
+    margin-left: 355px;
+}
+.sss{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 202020;
+    display: none;
+}
